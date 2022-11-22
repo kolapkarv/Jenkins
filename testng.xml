@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.xuriti.dev.TestClass.Tc_01_Signup"/>
+      <class name="com.xuriti.dev.TestClass.Tc_02_Login"/>
+      <class name="com.xuriti.dev.TestClass.Tc_03_B_AddCompany"/>
+      <class name="com.xuriti.dev.TestClass.Tc_04_B_ApproveCompany"/>
+      <class name="com.xuriti.dev.TestClass.Tc_05_S_AddCompany"/>
+      <class name="com.xuriti.dev.TestClass.Tc_06_S_ApproveCompany"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
